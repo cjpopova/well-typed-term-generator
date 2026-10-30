@@ -3,3 +3,8 @@
  (name gen_haskell)
  (libraries not_useless)
  (package gen_haskell))
+(executable
+ (public_name tester)
+ (name tester)
+ (libraries not_useless unix)
+ (package not_useless))

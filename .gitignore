@@ -3,3 +3,6 @@ _build/
 log/
 
 *.o
+tmp/
+*.install
+a.out
